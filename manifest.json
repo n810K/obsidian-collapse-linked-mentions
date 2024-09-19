@@ -3,7 +3,7 @@
 	"name": "Collapse Linked Mentions",
 	"version": "1.1.1",
 	"minAppVersion": "0.15.0",
-	"description": "A plugin to automatically collapse linked mentions in Obsidian.",
+	"description": "Automatically collapse embedded backlink mentions",
 	"author": "n810",
 	"isDesktopOnly": true
 }
