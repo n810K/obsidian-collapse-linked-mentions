@@ -35,7 +35,7 @@ export default class CollapseLinkedMentionsPlugin extends Plugin {
       document.head.appendChild(style);
     }
     style.textContent = `
-      .workspace-leaf.mod-active .workspace-leaf-content .embedded-backlinks {
+      .workspace-leaf .workspace-leaf-content .embedded-backlinks {
         min-height: ${this.settings.minHeight}px !important;
       }
     `;
