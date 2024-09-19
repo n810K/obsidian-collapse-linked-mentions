@@ -1,7 +1,7 @@
 {
 	"id": "collapse-linked-mentions-plugin",
 	"name": "Collapse Linked Mentions",
-	"version": "1.1.0",
+	"version": "1.1.1",
 	"minAppVersion": "0.15.0",
 	"description": "A plugin to automatically collapse linked mentions in Obsidian.",
 	"author": "n810",
