@@ -28,10 +28,10 @@ export default class CollapseLinkedMentionsPlugin extends Plugin {
   }
 
   applyStyles() {
-    let style = document.getElementById('my-plugin-style') as HTMLStyleElement;
+    let style = document.getElementById('collapse-linked-mentions-style') as HTMLStyleElement;
     if (!style) {
       style = document.createElement('style');
-      style.id = 'my-plugin-style';
+      style.id = 'collapse-linked-mentions-style';
       document.head.appendChild(style);
     }
     style.textContent = `
@@ -79,10 +79,10 @@ class CollapseLinkedMentionsSettingTab extends PluginSettingTab {
     const { containerEl } = this;
 
     containerEl.empty();
-    containerEl.createEl('h2', { text: 'Collapse Linked Mentions Settings' });
+    containerEl.createEl('h2', { text: 'Collapse Linked Mentions' });
 
     new Setting(containerEl)
-      .setName('Minimum Height')
+      .setName('Minimum height')
       .setDesc('Set the minimum height for the embedded backlinks')
       .addText(text => text
         .setPlaceholder('Enter minimum height (e.g., 100px)')
