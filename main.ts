@@ -79,7 +79,6 @@ class CollapseLinkedMentionsSettingTab extends PluginSettingTab {
     const { containerEl } = this;
 
     containerEl.empty();
-    containerEl.createEl('h2', { text: 'Collapse Linked Mentions' });
 
     new Setting(containerEl)
       .setName('Minimum height')
